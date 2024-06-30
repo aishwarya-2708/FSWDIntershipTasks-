@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+           
+            *{
+                text-decoration: none;
+                overflow-x: hidden;
+            }
+            .navbar{
+                background:rgb(81, 181, 116);
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .navdiv{
+                align-items: center;
+                display:flex ;
+                justify-content: space-between;
+            }
+            .logo a{
+                font-size: 40px;
+                font-weight: bold;
+                color:white;
+                font-family: Gill Sans;
+
+            }
+            li{
+                list-style: none;
+                display: inline-block;
+            }
+            li a{
+                font-size: 27px;
+                font-weight: bold;
+                color:rgb(199, 241, 202);
+                margin-right: 25px;
+            }
+            li a:hover{
+                background-color: green;
+            }
+            .content {
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 200px;
+            }
+            .bg{
+                width: 100%;
+                min-height: 100vh;
+                background:url(farm.jpg) ;
+                background-size: cover;
+                background-position:center;
+                filter:blur(5px);
+                position: absolute;
+                z-index: -1;
+            
+            }
+            
+            .content {
+                padding-top: 70px;
+                padding-left: 140px;
+                padding-right: 140px;
+                font-size: 30px;
+                color:white;
+                font-family: verdana;
+            }
+            .btn{
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: chocolate;
+                font-family: Gill Sans;
+                background-color:none;
+                font-size: 40px;
+                border: 2px;
+                border-radius: 10px 2px 10px 2px ;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="#">FINE CROPS</a>
+                </div>
+                    <ol>
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Crops</a></li>
+                        <li> <a href="#">Fresh</a></li>
+                        <li> <a href="#">Contact</a></li>
+                    </ol>
+                
+            </div>  
+        </nav>
+        <div class="bg"></div>
+        <div class="content">We are leaders in building resilient and healthy dryland agri-food systems, spanning the entire value chain with a specialized focus on key crops<br><br>
+            <button class="btn">Explore</button>
+        </div>
+        
+    </body>
+</html>
