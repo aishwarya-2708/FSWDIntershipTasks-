@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+h1{
+  font-size: 40px;
+  color: #4a0c76;
+  font-weight: bolder;
+}
+.container{
+  max-width: 600px;
+  font-size: 16px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  min-height: 400px;
+  font-size: 18px;
+  padding-top: 15px;
+  border-radius: 15px;
+}
+.inputBox input{
+  border-color: #803daf;
+  width: 60%;
+  height: 27px;
+  color: #4c0f77;
+  font-size: 20px;
+}
+.inputBox button{
+  background-color:#803daf ;
+  color: white;
+  margin-left: 10px;
+  width: 25%;
+  height: 33px;
+  font-size: 20px;
+  font-weight: bold;
+}
+li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.list{
+  font-weight: bold;
+  text-align: left;
+}
+.list ul{
+  padding-left: 0;
+}
+.list ul li{
+  background-color: #803daf;
+  color:white;
+  padding: 5px;
+  margin-bottom: 2px;
+  position: relative;
+}
+.dlt-icon {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 14px;
+  height: 14px;
+}
+ .edit-icon{
+  position: absolute;
+  top: 8px;
+  right: 40px;
+  width: 15px;
+  height: 15x;
+ }
+ h4{
+  color: #803daf;
+ }
